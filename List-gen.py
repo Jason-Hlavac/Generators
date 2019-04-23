@@ -24,14 +24,14 @@ def Square(times):
 def Cube(times):
     for i in range(times):
         numbers.append(i**3)
-if (gen == 1):
-    Fib(iterate, 1, 0)
-elif(gen == 2):
-    Geo(iterate)
-elif(gen == 3):
-    Square(iterate)
-elif(gen == 4):
-    Cube(iterate)
+if (int(gen) == 1):
+    Fib(int(iterate), 1, 0)
+elif(int(gen) == 2):
+    Geo(int(iterate))
+elif(int(gen) == 3):
+    Square(int(iterate))
+elif(int(gen) == 4):
+    Cube(int(iterate))
 else:
     print("That is not a valid input")
 print (numbers)
